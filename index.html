@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess-Board</title>
+    <style>
+   .chess-board{
+    border: 10px solid black;
+    display:flex;
+    background-color:white;
+    height: 820px;
+    width:835px;
+    margin-left: 40vh;
+    justify-content: center;
+    align-items: center;
+    border: 10px,solid,black;
+   }
+   .r1>div{
+    height: 100px;
+    width:100px;
+    margin:2px;
+   }
+   .r2>div{
+    height: 100px;
+    width:100px;
+    margin:2px;
+   }
+   .r3>div{
+    height: 100px;
+    width:100px;
+    margin:2px;   
+   }
+   .r4>div{
+    height: 100px;
+    width:100px;
+    margin:2px;   
+   }
+   .r5>div{
+    height: 100px;
+    width:100px;
+    margin:2px;   
+   }
+   .r6>div{
+    height: 100px;
+    width:100px;
+    margin:2px;   
+   }
+   .r7>div{
+    height: 100px;
+    width:100px;
+    margin:2px;   
+   }
+   .r8>div{
+    height: 100px;
+    width:100px;
+    margin:2px;   
+   }
+
+   .c2,.c4,.c6,.c8,.c9,.c11,.c13,.c15,.c18,.c20,.c22,.c24,.c25,.c27,.c29,.c31,
+   .c34,.c36,.c38,.c40,.c41,.c43,.c45,.c47,.c50,.c52,.c54,.c56,.c57,.c59,.c61,.c63{
+    background-color:lightslategrey;
+   }
+   div:hover{
+    background-color: lavender;
+   }
+   div:active{
+    background-color:mediumpurple;
+   }
+   h1:hover{
+    background-color: lavender;
+   }
+   h1:active{
+    background-color:mediumpurple;
+   }
+
+   h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: darkslategray;
+   }
+    </style>
+</head>
+<body>
+    <h1>CHESS-BOARD</h1>
+    <div class="chess-board">
+        <div class="r1">
+     <div class="c1"><img src="./rook.png" height="90px",width="90px"></div>
+     <div class="c2"><img src="./chess-pawn.png" height="90px",width="90px"></div>
+     <div class="c3"></div>
+     <div class="c4"></div>
+     <div class="c5"></div>
+     <div class="c6"></div>
+     <div class="c7"><img src="./pawn.png" height="90px",width="90px"></div>
+     <div class="c8"><img src="./rook (1).png"height="90px",width="90px"></div>
+    </div>
+    <div class="r2">
+     <div class="c9"><img src="./horse.png" height="90px",width="90px"></div>
+     <div class="c10"><img src="./chess-pawn.png" height="90px",width="90px"></div>
+     <div class="c11"></div>
+     <div class="c12"></div>
+     <div class="c13"></div>
+     <div class="c14"></div>
+     <div class="c15"><img src="./pawn.png" height="90px",width="90px"></div>
+     <div class="c16"><img src="./horse(1).png" height="90px",width="90px"></div>
+    </div>
+    <div class="r3">
+        <div class="c17"><img src="./bishop.png" height="90px",width="90px"></div>
+        <div class="c18"><img src="./chess-pawn.png" height="90px",width="90px"></div>
+        <div class="c19"></div>
+        <div class="c20"></div>
+        <div class="c21"></div>
+        <div class="c22"></div>
+        <div class="c23"><img src="./pawn.png" height="90px",width="90px"></div>
+        <div class="c24"><img src="./bishop (1).png" height="90px",width="90px"></div>
+    </div>
+    <div class="r4">
+        <div class="c25"><img src="./queen (3).png" height="90px",width="90px"></div>
+        <div class="c26"><img src="./chess-pawn.png" height="90px",width="90px"></div>
+        <div class="c27"></div>
+        <div class="c28"></div>
+        <div class="c29"></div>
+        <div class="c30"></div>
+        <div class="c31"><img src="./pawn.png" height="90px",width="90px"></div>
+        <div class="c32"><img src="./queen.png" height="90px",width="90px"></div>
+    </div>
+    <div class="r5">
+        <div class="c33"><img src="./king.png" height="90px",width="90px"></div>
+        <div class="c34"><img src="./chess-pawn.png" height="90px",width="90px"></div>
+        <div class="c35"></div>
+        <div class="c36"></div>
+        <div class="c37"></div>
+        <div class="c38"></div>
+        <div class="c39"><img src="./pawn.png" height="90px",width="90px"></div>
+        <div class="c40"><img src="./king (1).png "height="90px",width="90px"></div>
+    </div>
+    <div class="r6">
+        <div class="c41"><img src="./bishop.png" height="90px",width="90px"></div>
+        <div class="c42"><img src="./chess-pawn.png" height="90px",width="90px"></div>
+        <div class="c43"></div>
+        <div class="c44"></div>
+        <div class="c45"></div>
+        <div class="c46"></div>
+        <div class="c47"><img src="./pawn.png" height="90px",width="90px"></div>
+        <div class="c48"><img src="./bishop (1).png" height="90px",width="90px"></div>    
+    </div>
+    <div class="r7">
+        <div class="c49" ><img src="./horse.png" height="90px",width="90px"></div>
+        <div class="c50"><img src="./chess-pawn.png" height="90px",width="90px"></div>
+        <div class="c51"></div>
+        <div class="c52"></div>
+        <div class="c53"></div>
+        <div class="c54"></div>
+        <div class="c55"><img src="./pawn.png" height="90px",width="90px"></div>
+        <div class="c56"><img src="./horse(1).png" height="90px",width="90px"></div>
+    </div>
+    <div class="r8">
+        <div class="c57"><img src="./rook.png" height="90px",width="90px"></div>
+        <div class="c58"><img src="./chess-pawn.png" height="90px",width="90px"></div>
+        <div class="c59"></div>
+        <div class="c60"></div>
+        <div class="c61"></div>
+        <div class="c62"></div>
+        <div class="c63"><img src="./pawn.png" height="90px",width="90px"></div>
+        <div class="c64"><img src="./rook (1).png" height="90px",width="90px"></div>
+        </div>  
+    </div>
+</body>
+</html>
